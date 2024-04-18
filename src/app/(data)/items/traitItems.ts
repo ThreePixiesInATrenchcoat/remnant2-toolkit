@@ -453,7 +453,7 @@ export const traitItems: TraitItem[] = [
   {
     category: 'trait',
     name: 'Gifted',
-    imagePath: '/placeholder.jpg',
+    imagePath: '/trait/gifted-placeholder.png',
     id: 'c9af3B',
     dlc: 'dlc2',
     tags: [],

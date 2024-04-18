@@ -1252,13 +1252,14 @@ Increases the hits MEDIC can take before losing Grey Health by 2`,
   },
   {
     category: 'perk',
-    name: 'Visionary'
-    imagePath: '/placeholder.jpg',
+    name: 'Visionary',
+    imagePath: '/perk/visionary-placeholder.png',
     type: 'prime',
     id: 'hYsQ4M',
     dlc: 'dlc2',
-    tags: ['Reduce Skill Cooldown',],
-    description: 'PRERELEASE Doubles Base Skill Charges for all Archetypes. Skill activation reduces all Skill Cooldowns by 10%. For Heavy Weapons, doubles Heavy Weapon Base Ammo instead.',
+    tags: ['Reduce Skill Cooldown'],
+    description:
+      'PRERELEASE Doubles Base Skill Charges for all Archetypes. Skill activation reduces all Skill Cooldowns by 10%. For Heavy Weapons, doubles Heavy Weapon Base Ammo instead.',
     wikiLinks: [],
     linkedItems: {
       archetype: {
@@ -1268,13 +1269,14 @@ Increases the hits MEDIC can take before losing Grey Health by 2`,
   },
   {
     category: 'perk',
-    name: 'INVOKER PERK #2', // TODO
-    imagePath: '/placeholder.jpg',
+    name: 'Entranced', // TODO
+    imagePath: '/perk/entranced-placeholder.png',
     type: 'damage',
     id: 'Y9Tj7F',
     dlc: 'dlc2',
     tags: [],
-    description: 'NO DESCRIPTION YET', // TODO
+    description:
+      'Increases Skill Damage by 30%, Elemental Damage by 15%, and Skill and Elemental Critical Chance by 5%. Damage increases with Invoker level.',
     wikiLinks: [],
     linkedItems: {
       archetype: {
@@ -1284,13 +1286,14 @@ Increases the hits MEDIC can take before losing Grey Health by 2`,
   },
   {
     category: 'perk',
-    name: 'INVOKER PERK #3', // TODO
-    imagePath: '/placeholder.jpg',
+    name: 'Communion',
+    imagePath: '/perk/communion-placeholder.png',
     type: 'team',
     id: 'GV9bDr',
     dlc: 'dlc2',
     tags: [],
-    description: 'NO DESCRIPTION YET', // TODO
+    description:
+      'Reduces Skill Cooldowns by 1% and Heals 2% Max Health once every 3s for allies while an Invoker Skill is active.',
     wikiLinks: [],
     linkedItems: {
       archetype: {
@@ -1300,13 +1303,31 @@ Increases the hits MEDIC can take before losing Grey Health by 2`,
   },
   {
     category: 'perk',
-    name: 'INVOKER PERK #4', // TODO
-    imagePath: '/placeholder.jpg',
+    name: 'Mind and Body',
+    imagePath: '/perk/mind-and-body-placeholder.png',
     type: 'utility',
     id: 'T2U4dZ',
     dlc: 'dlc2',
     tags: [],
-    description: 'NO DESCRIPTION YET', // TODO
+    description:
+      'Increases Movement Speed by 5% and Damage Reduction by 5%w hile an Invoker Skill is active.',
+    wikiLinks: [],
+    linkedItems: {
+      archetype: {
+        name: 'Invoker',
+      },
+    },
+  },
+  {
+    category: 'perk',
+    name: 'Soothsayer',
+    imagePath: '/perk/soothsayer-placeholder.png',
+    type: 'relic',
+    id: 'j7e5Bb',
+    dlc: 'dlc2',
+    tags: [],
+    description:
+      'On Relic use, extend the duration of active Invoker skills by 20% of the base duration. Cannot exceed base duration. Relic Use Speed increased by 25% while an Invoker Skill is active.',
     wikiLinks: [],
     linkedItems: {
       archetype: {

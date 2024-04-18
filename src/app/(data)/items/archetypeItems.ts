@@ -262,25 +262,24 @@ export const archetypeItems: ArchetypeItem[] = [
   {
     category: 'archetype',
     name: 'Invoker',
-    imagePath: '/placeholder.jpg', // TODO
+    imagePath: '/archtype/invoker-placeholder.png', // TODO
     id: 'Y2NhrX',
     dlc: 'dlc2',
     description: 'NO DESCRIPTION YET', // TODO
     wikiLinks: [],
     linkedItems: {
-      traits: [
-        { name: 'INVOKER TRAIT', amount: 10 }, // TODO
-      ],
+      traits: [{ name: 'Gifted', amount: 10 }],
       skills: [
-        { name: 'INVOKER SKILL #1' }, // TODO
-        { name: 'INVOKER SKILL #2' }, // TODO
-        { name: 'INVOKER SKILL #3' }, // TODO
+        { name: 'Way of Kaeula' },
+        { name: 'Way of Meidra' },
+        { name: 'Way of Lydusa' },
       ],
       perks: [
-        { name: 'INVOKER PERK #1' }, // TODO
-        { name: 'INVOKER PERK #2' }, // TODO
-        { name: 'INVOKER PERK #3' }, // TODO
-        { name: 'INVOKER PERK #4' }, // TODO
+        { name: 'Visionary' },
+        { name: 'Entranced' },
+        { name: 'Communion' },
+        { name: 'Mind and Body' },
+        { name: 'soothsayer' },
       ],
     },
   },
